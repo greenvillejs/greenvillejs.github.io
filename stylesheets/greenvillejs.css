@@ -1,0 +1,36 @@
+
+header {
+	padding-top: 50px;
+}
+
+.header-wrap {
+	background: #5B9234;
+	padding-bottom: 50px;
+}
+
+.head-wrap {
+	text-align:center;
+	margin: 20px auto;
+}
+
+#logo {
+	height: 150px;
+}
+
+.contact {
+	display: inline-block;
+	text-align: center;
+	margin: 0 20px;
+}
+
+#description {
+	text-align: left;
+	display: block;
+	margin: 0 auto 30px;
+	color: #A2CA4C;
+	font-size: 20px;
+}
+
+#welcome {
+	line-height: 75px;
+}
