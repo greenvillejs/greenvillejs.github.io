@@ -53,7 +53,7 @@
 	body {
 		/*background: white;*/
 		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		color: #444;
+		color: black;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
  }
@@ -62,7 +62,7 @@
 /* #Typography
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
-		color: #E3F041;
+		color: black;
 		font-family: "Georgia", "Times New Roman", serif;
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -76,10 +76,10 @@
 
 	p { margin: 0 0 20px 0; }
 	p img { margin: 0; }
-	p.lead { font-size: 21px; line-height: 27px; color: #E3F041;  }
+	p.lead { font-size: 21px; line-height: 27px; color: black;  }
 
 	em { font-style: italic; }
-	strong { font-weight: bold; color: #E3F041; }
+	strong { font-weight: bold; color: black; }
 	small { font-size: 80%; }
 
 /*	Blockquotes  */
@@ -94,7 +94,7 @@
 
 /* #Links
 ================================================== */
-	a, a:visited { color: #A2CA4C; text-decoration: underline; outline: 0; }
+	a, a:visited { color: #5B9234;; text-decoration: underline; outline: 0; }
 	a:hover, a:focus { color: #000; }
 	p a, p a:visited { line-height: inherit; }
 

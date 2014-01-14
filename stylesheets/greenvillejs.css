@@ -1,10 +1,15 @@
 
+body {
+	background: url('../images/party.JPG') no-repeat center center fixed;
+	background-position: cover;
+}
+
 header {
 	padding-top: 50px;
 }
 
 .header-wrap {
-	background: #5B9234;
+	background: rgba(91, 146, 52, 0.68);
 	padding-bottom: 50px;
 }
 
@@ -24,13 +29,28 @@ header {
 }
 
 #description {
+	width: 800px;
 	text-align: left;
 	display: block;
 	margin: 0 auto 30px;
-	color: #A2CA4C;
 	font-size: 20px;
+	color: #FFFFFF;
 }
 
 #welcome {
 	line-height: 75px;
+	color: #FFFFFF;
+	text-shadow: 1px 3px 0 #3E641A;
+}
+
+.main {
+	margin: 50px auto;
+}
+
+.text-color {
+	color: #5B9234;
+}
+
+.social:hover {
+	width: 110%;
 }
