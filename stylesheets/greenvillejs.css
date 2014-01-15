@@ -10,7 +10,7 @@ header {
 }
 
 .header-wrap {
-	background: rgba(0, 48, 6, 0.52);
+	background: rgba(106, 165, 114, 0.92);
 	padding-bottom: 50px;
 	margin-top: 150px;
 }
@@ -47,7 +47,7 @@ header {
 
 .main {
 	margin: 150px auto;
-	background: rgba(0, 48, 6, 0.52);
+	background: rgba(106, 165, 114, 0.92);
 	color: #ffffff;
 	text-align: center;
 }
@@ -75,15 +75,17 @@ header {
 }
 
 .topics {
-	clear: both;
+	padding-bottom: 10px;
 }
 
 .other-stuff {
-	border-left: 15px solid #33551B;
 	padding-left: 70px;
 	height: 185px;
 	margin: 0 40px;
 }
+
+/* CUSTOM MEDIA QUERIES 
+==============================*/
 
  @media only screen and (max-width: 865px){
  	.one-third.column {
@@ -91,12 +93,6 @@ header {
  		margin: 0 !important;
  		float: none !important;
  	}
-
- 	.other-stuff {
- 		border: 0;
- 	}
-
-
  }
 
  @media screen and (max-width: 959px) and (min-width: 768px) {

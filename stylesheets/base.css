@@ -94,7 +94,7 @@
 
 /* #Links
 ================================================== */
-	a, a:visited { color: #6DCA2B;; text-decoration: underline; outline: 0; font-size: 20px;}
+	a, a:visited { color: #143001; text-decoration: underline; outline: 0; font-size: 20px;}
 	a:hover, a:focus { color: #ffffff; }
 	p a, p a:visited { line-height: inherit; }
 
