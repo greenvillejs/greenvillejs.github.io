@@ -52,6 +52,12 @@ header {
 	text-align: center;
 }
 
+.main ul {
+	display: inline-block;
+	vertical-align: top;
+	margin: 20px 50px;
+}
+
 .email {
 	width: 60px;
 	height: 61px;
@@ -77,26 +83,3 @@ header {
 .topics {
 	padding-bottom: 10px;
 }
-
-.other-stuff {
-	padding-left: 70px;
-	height: 185px;
-	margin: 0 40px;
-}
-
-/* CUSTOM MEDIA QUERIES 
-==============================*/
-
- @media only screen and (max-width: 865px){
- 	.one-third.column {
- 		width: inherit !important;
- 		margin: 0 !important;
- 		float: none !important;
- 	}
- }
-
- @media screen and (max-width: 959px) and (min-width: 768px) {
- 	.container {
- 		width: auto !important;
- 	}
- }
