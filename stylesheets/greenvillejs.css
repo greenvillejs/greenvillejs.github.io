@@ -2,6 +2,7 @@
 body {
 	background: url('../images/party.JPG') no-repeat center center fixed;
 	background-size: cover;
+	font-family: 'Montserrat';
 }
 
 header {
@@ -36,6 +37,7 @@ header {
 	margin: 0 auto 30px;
 	font-size: 20px;
 	color: #FFFFFF;
+	line-height: 30px;
 }
 
 #welcome {
@@ -51,9 +53,20 @@ header {
 	text-align: center;
 }
 
-.social:hover {
-	background-color: #388303;
+.email:hover {
+	background: #388303;
 	border-radius: 25%;
+}
+
+.twitter {
+	width: 60px;
+	height: 60px;
+	background: url("../images/twitter.png") no-repeat;
+	display: inline-block;
+}
+
+.twitter:hover {
+	background: url('../images/twitter-green.png') no-repeat;
 }
 
 .topics {
