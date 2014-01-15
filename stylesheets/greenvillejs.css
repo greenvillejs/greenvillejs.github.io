@@ -31,7 +31,6 @@ header {
 }
 
 #description {
-	width: 800px;
 	text-align: left;
 	display: block;
 	margin: 0 auto 30px;
@@ -84,5 +83,24 @@ header {
 	padding-left: 70px;
 	height: 185px;
 	margin: 0 40px;
-	}
 }
+
+ @media only screen and (max-width: 865px){
+ 	.one-third.column {
+ 		width: inherit !important;
+ 		margin: 0 !important;
+ 		float: none !important;
+ 	}
+
+ 	.other-stuff {
+ 		border: 0;
+ 	}
+
+
+ }
+
+ @media screen and (max-width: 959px) and (min-width: 768px) {
+ 	.container {
+ 		width: auto !important;
+ 	}
+ }
