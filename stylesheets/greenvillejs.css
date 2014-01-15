@@ -1,7 +1,7 @@
 
 body {
 	background: url('../images/party.JPG') no-repeat center center fixed;
-	background-position: cover;
+	background-size: cover;
 }
 
 header {
@@ -9,8 +9,9 @@ header {
 }
 
 .header-wrap {
-	background: rgba(91, 146, 52, 0.68);
+	background: rgba(0, 48, 6, 0.52);
 	padding-bottom: 50px;
+	margin-top: 150px;
 }
 
 .head-wrap {
@@ -44,13 +45,25 @@ header {
 }
 
 .main {
-	margin: 50px auto;
-}
-
-.text-color {
-	color: #5B9234;
+	margin: 150px auto;
+	background: rgba(0, 48, 6, 0.52);
+	color: #ffffff;
+	text-align: center;
 }
 
 .social:hover {
-	width: 110%;
+	background-color: #388303;
+	border-radius: 25%;
+}
+
+.topics {
+	clear: both;
+}
+
+.other-stuff {
+	border-left: 20px solid #388303;
+	padding-left: 70px;
+	height: 185px;
+	margin: 0 40px;
+	}
 }
