@@ -86,7 +86,7 @@ header {
 	padding-bottom: 10px;
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 480px){
 	body {
 		background: url('../images/andy-shirt-3.jpg') no-repeat center center fixed;
 		-webkit-background-size: 1169px 794px;
