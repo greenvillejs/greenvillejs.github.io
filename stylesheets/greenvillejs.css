@@ -1,10 +1,17 @@
-body {
+html {
+	height: 100%;
 	font-family: 'Montserrat';
 	background: url('../images/andy-shirt-3.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	overflow: hidden;
+}
+
+body {
+	height: 100%;
+	overflow: auto;
 }
 
 header {
@@ -14,13 +21,18 @@ header {
 .header-wrap {
 	background: rgba(106, 165, 114, 0.92);
 	padding-bottom: 50px;
-	margin-top: 150px;
+	/*margin-top: 150px;*/
 }
 
 .head-wrap {
 	text-align:center;
 	margin: 20px auto;
 }
+
+.desc {
+	background: white;
+}
+
 
 #logo {
 	height: 150px;
@@ -37,27 +49,28 @@ header {
 	display: block;
 	margin: 0 auto 30px;
 	font-size: 20px;
-	color: #FFFFFF;
 	line-height: 30px;
+	color: #FFFFFF;
+	text-shadow: 1px 2px 3px #3E641A;
 }
 
 #welcome {
 	line-height: 75px;
 	color: #FFFFFF;
-	text-shadow: 1px 3px 0 #3E641A;
+	text-shadow: 1px 2px 3px #3E641A;
 }
 
 .main {
-	margin: 150px auto;
+	margin: 150px auto 0;
 	background: rgba(106, 165, 114, 0.92);
 	color: #ffffff;
 	text-align: center;
+	padding: 20px;
 }
 
 .main ul {
 	display: inline-block;
 	vertical-align: top;
-	margin: 20px 50px;
 }
 
 .email {
@@ -82,16 +95,12 @@ header {
 	background: url('../images/twitter-green.png') no-repeat;
 }
 
-.topics {
-	padding-bottom: 10px;
-}
-
 @media screen and (max-width: 480px){
-	body {
-		background: url('../images/andy-shirt-3.jpg') no-repeat center center fixed;
-		-webkit-background-size: 1169px 794px;
-		-moz-background-size: 1169px 794px;
-		-o-background-size: 1169px 794px;
-		background-size: 1169px 794px;
+	html {
+	/*background: url('../images/chandler.jpg') no-repeat center center fixed;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 260% 100%;
 	}
 }
