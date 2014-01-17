@@ -24,18 +24,13 @@ header {
 }
 
 .header-wrap {
-	background: rgba(106, 165, 114, 0.92);
+	background: rgba(106, 165, 114, 0.96);
 	padding-bottom: 50px;
 	text-align:center;
 }
 
 .head-wrap {
 }
-
-.desc {
-	background: white;
-}
-
 
 #logo {
 	height: 150px;
@@ -66,7 +61,7 @@ header {
 
 .main {
 	margin: 150px auto 0;
-	background: rgba(106, 165, 114, 0.92);
+	background: rgba(106, 165, 114, 0.96);
 	color: #ffffff;
 	text-align: center;
 	padding: 20px;
