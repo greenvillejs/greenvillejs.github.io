@@ -14,6 +14,9 @@ body {
 	overflow: auto;
 }
 
+/* CONTENT 
+======================*/
+
 header {
 	padding-top: 50px;
 }
@@ -21,11 +24,11 @@ header {
 .header-wrap {
 	background: rgba(106, 165, 114, 0.92);
 	padding-bottom: 50px;
+	text-align:center;
+	margin: 20px auto;
 }
 
 .head-wrap {
-	text-align:center;
-	margin: 20px auto;
 }
 
 .desc {
@@ -70,7 +73,11 @@ header {
 .main ul {
 	display: inline-block;
 	vertical-align: top;
+	padding: 0 20px;
 }
+
+/* BUTTONS
+======================*/
 
 .email {
 	width: 60px;
