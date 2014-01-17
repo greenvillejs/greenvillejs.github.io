@@ -7,7 +7,6 @@ html {
 	-o-background-size: cover;
 	background-size: cover;
 	overflow: hidden;
-	/*overflow-y: scroll;*/
 	-webkit-overflow-scrolling: touch;
 }
 
