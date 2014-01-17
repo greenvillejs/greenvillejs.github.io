@@ -21,7 +21,6 @@ header {
 .header-wrap {
 	background: rgba(106, 165, 114, 0.92);
 	padding-bottom: 50px;
-	/*margin-top: 150px;*/
 }
 
 .head-wrap {
@@ -97,7 +96,6 @@ header {
 
 @media screen and (max-width: 480px){
 	html {
-	/*background: url('../images/chandler.jpg') no-repeat center center fixed;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
