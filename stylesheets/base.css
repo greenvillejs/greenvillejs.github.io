@@ -65,7 +65,7 @@
 		color: #ffffff;
 		font-family: 'Montserrat', "Georgia", "Times New Roman", serif;
 		font-weight: normal; 
-		text-shadow: 1px 2px 3px #3E641A;
+		text-shadow: 1px 1px 0 #3E641A;
 	}
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}

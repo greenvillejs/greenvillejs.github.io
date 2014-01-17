@@ -7,6 +7,8 @@ html {
 	-o-background-size: cover;
 	background-size: cover;
 	overflow: hidden;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 
 body {
@@ -52,7 +54,8 @@ header {
 	font-size: 20px;
 	line-height: 30px;
 	color: #FFFFFF;
-	text-shadow: 1px 2px 3px #3E641A;
+	text-shadow: 1px 1px 0 #3E641A;
+	padding: 0 20px;
 }
 
 #welcome {
