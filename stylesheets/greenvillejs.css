@@ -1,100 +1,134 @@
 html {
-	height: 100%;
-	font-family: 'Montserrat';
-	background: url('../images/andy-shirt-3.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	overflow: hidden;
-	-webkit-overflow-scrolling: touch;
+  background: #33352D;
+  font-family: 'Montserrat';
+  color: #FFFFFF;
 }
 
 body {
-	height: 100%;
-	overflow: auto;
+  margin: 0;
 }
 
-/* CONTENT 
-======================*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.centered {
+  text-align: center;
+}
+
+.coming_soon {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.purple {
+  font-size: 16px;
+  color: #CA8AFA;
+}
 
 header {
-	padding-top: 50px;
+  width: 100%;
+  height: 150px;
+  background: #1E1E1A;
+  box-shadow: 1px 1px 10px black;
+  border-bottom: 1px solid rgb(22,22,22);
 }
 
-.header-wrap {
-	background: rgba(106, 165, 114, 0.96);
-	padding-bottom: 50px;
-	text-align:center;
+.container {
+  width: 960px;
+  margin: 0 auto;
 }
 
-.head-wrap {
+.container img {
+  display: inline-block;
 }
 
-#logo {
-	height: 150px;
+.nav {
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
 }
 
-.contact {
-	display: inline-block;
-	text-align: center;
-	margin: 0 20px;
+.nav ul{
+  display: inline-block;
 }
 
-#description {
-	text-align: left;
-	display: block;
-	margin: 0 auto 30px;
-	font-size: 20px;
-	line-height: 30px;
-	color: #FFFFFF;
-	text-shadow: 1px 1px 0 #3E641A;
-	padding: 0 20px;
+li {
+  display: inline-block;
+  padding: 0 5px;
+  font-size: 20px;
+  color: #9DEA2E;
 }
 
-#welcome {
-	line-height: 75px;
-	color: #FFFFFF;
-	text-shadow: 1px 2px 3px #3E641A;
+.wide li {
+  padding: 0 0 0 20px;
+  margin: 0 auto;
 }
 
-.main {
-	margin: 150px auto 0;
-	background: rgba(106, 165, 114, 0.96);
-	color: #ffffff;
-	text-align: center;
-	padding: 20px;
+.section {
+  width: 100%;
+  padding: 20px;
+  line-height: 25px;
+  margin: 50px 0 0;
+  border-radius: 4px;
+  background: #1E1E1A;
+  color: #EAE57C;
+  font-size: 20px;
+  box-shadow: 0px 2px 9px rgb(12,12,12);
+  border: 1px solid rgb(22,22,22);
 }
 
-.main ul {
-	display: inline-block;
-	vertical-align: top;
-	padding: 0 20px;
+.title {
+  display: block;
+  margin: 0 0 20px 0;
+  font-size: 34px;
+  color: #00C2F0;
 }
 
-/* BUTTONS
-======================*/
-
-.email {
-	width: 60px;
-	height: 61px;
-	background: url("../images/email.png") no-repeat;
-	display: inline-block;
+.large_title {
+  font-size: 34px;
+  color: #F3024C;
 }
 
-.email:hover {
-	background: url('../images/email-green.png') no-repeat;
+footer {
+  height: 180px;
+  width: 100%;
+  background: #1E1E1A;
+  margin: 30px 0 0;
+  padding: 20px 0 0;
+  box-shadow: 1px -1px 10px black;
+  border-top: 1px solid rgb(22,22,22);
+}
+
+.large_green {
+  color: #9DEA2E;
+  font-size: 34px;
+  font-weight: bold;
 }
 
 .twitter {
-	width: 60px;
-	height: 61px;
-	background: url("../images/twitter.png") no-repeat;
-	display: inline-block;
+  width: 60px;
+  height: 61px;
+  background: url("../images/twitter.png") no-repeat;
+  display: inline-block;
+  
 }
 
 .twitter:hover {
-	background: url('../images/twitter-green.png') no-repeat;
+  background: url('../images/twitter-green.png') no-repeat;
+}
+
+.email {
+  width: 60px;
+  height: 61px;
+  background: url("../images/email.png") no-repeat;
+  display: inline-block;
+}
+
+.email:hover {
+  background: url('../images/email-green.png') no-repeat;
 }
 
 @media screen and (max-width: 480px){
