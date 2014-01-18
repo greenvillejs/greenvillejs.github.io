@@ -5,93 +5,75 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
 
-	<!-- Basic Page Needs
+  <!-- Basic Page Needs
   ================================================== -->
-	<meta charset="utf-8">
-	<title>GreenvilleJS</title>
-	<meta name="description" content="Javascript Greenville">
-	<meta name="author" content="GreenvilleJS">
+  <meta charset="utf-8">
+  <title>GreenvilleJS</title>
+  <meta name="description" content="Javascript Greenville">
+  <meta name="author" content="GreenvilleJS">
 
-	<!-- Mobile Specific Metas
+  <!-- Mobile Specific Metas
   ================================================== -->
-	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1">
 
-	<!-- CSS
+  <!-- CSS
   ================================================== -->
-	<link rel="stylesheet" href="stylesheets/base.css">
-	<link rel="stylesheet" href="stylesheets/skeleton.css">
-	<link rel="stylesheet" href="stylesheets/layout.css">
-	<link rel="stylesheet" href="stylesheets/greenvillejs.css">
+  <link rel="stylesheet" href="stylesheets/base.css">
+  <link rel="stylesheet" href="stylesheets/skeleton.css">
+  <link rel="stylesheet" href="stylesheets/layout.css">
+  <link rel="stylesheet" href="stylesheets/greenvillejs.css">
 
 
   <!-- FONT
   =================== -->
-  	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 
 </head>
 <body>
 
-<!--  ABOUT
-==================== -->
-	<div class="header-wrap">
-		<header>
-			<h1 id="welcome">Welcome to GreenvilleJS!</h1>
-		</header>
-	</div>
+  <header>
+    <div class="container">
+      <img src="images/logo_header.png" alt="GreenvilleJS">
+      <ul class="nav">
+        <a href="#about"><li>About</li></a>
+        <a href="#topic"><li>Topics</li></a>
+        <a href="#footer"><li>Contact Us</li></a>
+        <a href="http://bit.ly/1d3MK07" target="_blank"><li>Sign Up</li></a>
+      </ul>
+    </div>
+  </header>
+  <div class="container" id="about">
+    <div class="section">
+      <span class="title">console.log(<span class="large_title">'ABOUT US'</span>);</span>
+      We are Greenville's Javascript group. We meet for about 2 hours once a month in the Next Innovation Center; this includes a break. You can sign up for 10/20/30 minute slots to talk about anything you want. Or you can just come for the free food and beer.
+      <br/><br/>
+      The only rule is there are no rules...except that JavaScript is the dominant topic, and you should probably wear pants. Frameworks, libraries, plugins, MVC, unit testing, and new fangled concepts are all encouraged.
+    </div>
+  </div>
+  <div class="container" id="topic">
+    <div class="section">
+      <span class="title">console.log(<span class="large_title">'UPCOMING TOPICS'</span>);</span>
+      <p class="centered coming_soon">Coming Soon</p>
+      <a href="mailto:greenvillejs@gmail.com?Subject=Topic Submission" title="Submit a Topic"><span class="purple">Submit a Topic</span></a>
+    </div>
+  </div>
+  <footer id="footer">
+    <div class="container centered">
+      <span class="large_green">Contact Us</span>
+      <ul class="wide">
+        <a href="https://twitter.com/GreenvilleJS" target="_blank" title="Twitter" alt="Twitter"><li class="twitter purple"></li></a>
+        <a href="mailto:greenvillejs@gmail.com?Subject=GreenvilleJS" alt="Email" title="Email"><li class="email purple"></li></a>
+      </ul>
+      <ul>
+        <li><a href="https://www.google.com/maps/preview#!q=Next+Innovation+Center&data=!1m4!1m3!1d353768!2d-81.9224214!3d34.941981!4m30!2m11!1m10!1s0x8858302de46b10b3%3A0xf851b2740ecf5b59!3m8!1m3!1d356494!2d-81.9224214!3d34.941981!3m2!1i1082!2i654!4f13.1!5m17!1m16!1sThe+Iron+Yard+in+the+NEXT+Innovation+Center!4m8!1m3!1d52329!2d-81.9224214!3d34.941981!3m2!1i1024!2i768!4f13.1!10b1!17b1!26m3!1e12!1e13!1e3" target="_blank" title="Directions">Directions
+        </a></li>
+      </ul>
+    </div>
+  </footer>
 
-<!-- MAIN
-================== -->
-	<div class="main">
-		<strong id="description">
-			We are Greenville's Javascript group. We meet for about 2 hours once a month in the Next Innovation Center; this includes a break. You can sign up for 10/20/30 minute slots to talk about anything you want. Or you can just come for the free food and beer.
-
-			<br>
-			<br>
-
-			The only rule is there are no rules...except that JavaScript is the dominant topic, and you should probably wear pants. Frameworks, libraries, plugins, MVC, unit testing, and new fangled concepts are all encouraged.
-		</strong>
-	</div>
-	<div class="main">
-		<h4>Topics for the next meeting...</h4>
-		<ul>
-			<li>Coming soon</li>
-		</ul>
-	</div>
-
-<!-- FOOTER
-=================== -->
-	<div class="main">		
-		<ul>
-		<h3>How to get in touch with us...</h3>
-			<li class="contact">
-				<a href="https://twitter.com/GreenvilleJS" target="_blank" >
-					<div class="twitter"></div>
-				</a>
-			</li>
-			<li class="contact">
-				<a href="mailto:greenvillejs@gmail.com">
-					<div class="email"></div>
-				</a>
-			</li>
-		</ul>
-		
-		<ul>
-		<h3>Some other stuff...</h3>
-			<li>
-				<a href="http://bit.ly/1d3MK07" target="_blank">Sign up for the next meeting!
-				</a>
-			</li>
-			<li>
-				<a href="https://www.google.com/maps/preview#!q=Next+Innovation+Center&data=!1m4!1m3!1d353768!2d-81.9224214!3d34.941981!4m30!2m11!1m10!1s0x8858302de46b10b3%3A0xf851b2740ecf5b59!3m8!1m3!1d356494!2d-81.9224214!3d34.941981!3m2!1i1082!2i654!4f13.1!5m17!1m16!1sThe+Iron+Yard+in+the+NEXT+Innovation+Center!4m8!1m3!1d52329!2d-81.9224214!3d34.941981!3m2!1i1024!2i768!4f13.1!10b1!17b1!26m3!1e12!1e13!1e3" target="_blank">Directions!
-				</a>
-			</li>
-		</ul>
-	</div>
-<!-- End Document
-================================================== -->
 </body>
 </html>
