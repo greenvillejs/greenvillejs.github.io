@@ -1,11 +1,7 @@
 html {
 	height: 100%;
+	background: #fff;
 	font-family: 'Montserrat';
-	background: url('../images/andy-shirt-3.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 	overflow: hidden;
 	-webkit-overflow-scrolling: touch;
 }
@@ -23,9 +19,30 @@ header {
 }
 
 .header-wrap {
-	background: rgba(106, 165, 114, 0.96);
+	position: relative;
+	background: url('../images/andy-shirt-3.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	padding-bottom: 50px;
 	text-align:center;
+}
+
+.header-wrap:after {
+	background: rgba(106, 165, 114, 0.96);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: " ";
+	z-index: 0;
+}
+
+#welcome {
+	position: relative;
+	z-index: 1;
 }
 
 .head-wrap {
@@ -60,7 +77,6 @@ header {
 
 .main {
 	margin: 150px auto 0;
-	background: rgba(106, 165, 114, 0.96);
 	color: #ffffff;
 	text-align: center;
 	padding: 20px;
