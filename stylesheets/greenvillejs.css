@@ -17,6 +17,7 @@ header {
   background: #1E1E1A;
   box-shadow: 1px 1px 10px black;
   border-bottom: 1px solid rgb(22,22,22);
+  position: relative;
 }
 
 header li:hover {
@@ -76,6 +77,12 @@ p {
 }
 
 /* SPECIFICS */
+
+.logo {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+}
 
 .container img {
   display: inline-block;
@@ -180,7 +187,7 @@ ul {
 
 	.nav {
 		float: none;
-		margin: 30px 5px;
+		margin: 165px 5px;
 	}
 	
 	.title, .large_title {
