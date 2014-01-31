@@ -128,6 +128,14 @@ ul {
 	color: white;
 }
 
+.next-meet {
+  font-size: 30px;
+  line-height: 37px;
+  color: #FFFFFF;
+  font-style: italic;
+  font-variant: small-caps;
+}
+
 #topics {
 	padding-left: 30px;
 }
@@ -149,7 +157,6 @@ ul {
   height: 61px;
   background: url("../images/twitter.png") no-repeat;
   display: inline-block;
-  
 }
 
 .twitter:hover {
