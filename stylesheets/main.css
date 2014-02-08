@@ -88,11 +88,6 @@ p {
   display: inline-block;
 }
 
-.coming_soon {
-  font-size: 28px;
-  font-weight: bold;
-}
-
 .nav {
   display: inline-block;
   float: right;
@@ -137,7 +132,7 @@ ul {
 }
 
 #topics {
-	padding-left: 30px;
+	padding-left: 50px;
 }
 
 #topics li {
