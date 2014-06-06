@@ -1,10 +1,14 @@
 /* UTILITIES */
 
 html {
-	background: #33352D;
+	background: #282828;
 	font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
+}
+
+html * {
+  vertical-align: top;
 }
 
 body {
@@ -14,8 +18,7 @@ body {
 header {
   width: 100%;
   height: 150px;
-  background: #1E1E1A;
-  box-shadow: 1px 1px 10px black;
+  background: #343434;
   border-bottom: 1px solid rgb(22,22,22);
   position: relative;
 }
@@ -25,35 +28,41 @@ header li:hover {
 }
 
 footer {
-  height: 180px;
+  height: 370px;
   width: 100%;
-  background: #1E1E1A;
+  background: #222;
   margin: 30px 0 0;
   padding: 20px 0 0;
-  box-shadow: 1px -1px 10px black;
-  border-top: 1px solid rgb(22,22,22);
+}
+
+.nav li  a {
+  color: #fff;
+}
+
+.nav li  a:hover {
+  color: #40E0C0;
 }
 
 a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #40E0C0;
 }
 
 a:hover {
-	color: #40E0C0;
+	color: #fff;
 }
 
 li {
   display: inline-block;
   padding: 0 5px;
   font-size: 20px;
-  color: #40E0C0;
+  color: #fff;
   line-height: 26px;
 }
 
 p {
 	margin: 0 100px 20px 30px;
-	color: #40E0C0;
+	color: #fff;
 }
 
 .centered {
@@ -63,25 +72,26 @@ p {
 .container {
   width: 960px;
   margin: 0 auto;
+
 }
 
 .section {
-  padding: 20px 5px;
+  padding: 20px;
   line-height: 25px;
-  margin: 50px 0 0;
+  /*margin: 20px;*/
   border-radius: 4px;
-  background: #1E1E1A;
+  /*background: #272822;*/
   font-size: 20px;
-  box-shadow: 0px 2px 9px rgb(12,12,12);
-  border: 1px solid rgb(22,22,22);
+  /*box-shadow: 0px 2px 9px rgb(12,12,12);*/
+  /*border: 1px solid rgb(22,22,22);*/
 }
 
 /* SPECIFICS */
 
 .logo {
-  position: absolute;
-  top: 0px;
-  left: 10px;
+  height: 130px;
+  width: 215px;
+  margin-top: 14px;
 }
 
 .container img {
@@ -126,7 +136,7 @@ ul {
 .next-meet {
   font-size: 30px;
   line-height: 37px;
-  color: #FFFFFF;
+  color: #40E0C0;
   font-style: italic;
   font-variant: small-caps;
 }
@@ -145,30 +155,84 @@ ul {
 	color: white;
 }
 
-/* BUTTONS */
+.var {
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  margin-left: 30px;
+  color: #fff;
+  font-size: 20px;
+}
 
-.twitter {
-  width: 60px;
-  height: 61px;
-  background: url("../images/twitter.png") no-repeat;
+.lil-left {
+  position: relative;
+  left: -5px;
+}
+
+.inl-b {
   display: inline-block;
 }
 
+.return {
+  display: inline-block;
+  color: #D32741;
+  font-size: 20px;
+  margin: 20px 10px 30px 30px;
+}
+
+.gjs {
+  display: inline-block;
+  color: #fff;
+  font-size: 28px;
+  margin-top: 15px;
+}
+
+.gjs:hover {
+  color: #40E0C0;
+}
+/* BUTTONS */
+
+.twitter {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 60px;
+  height: 61px;
+  background: url("../images/twitter.png") no-repeat;
+  background-size: 50px;
+}
+
 .twitter:hover {
-  background: url('../images/twitter-green.png') no-repeat;
+  background: url('../images/twitter_hover.png') no-repeat;
+  background-size: 50px;
 }
 
 .email {
   width: 60px;
   height: 61px;
   background: url("../images/email.png") no-repeat;
+  background-size: 66px;
   display: inline-block;
 }
 
 .email:hover {
-  background: url('../images/email-green.png') no-repeat;
+  background: url('../images/email_hover.png') no-repeat;
+  background-size: 66px;
 }
 
+.pin {
+  width: 60px;
+  height: 61px;
+  display: inline-block;
+  background: url('../images/pin_map.png') no-repeat;
+  background-size: 50px;
+}
+
+.pin:hover {
+  background: url('../images/pin_map_hover.png') no-repeat;
+  background-size: 50px;
+}
 
 /* MEDIA QUERIES */
 
