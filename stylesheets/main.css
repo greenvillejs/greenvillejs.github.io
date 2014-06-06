@@ -283,7 +283,11 @@ ul {
     margin: 0 auto;
   }
 
+  header {
+    width: 105%;
+  }
   footer {
+    width: 105%;
     height: 460px;
   }
 
