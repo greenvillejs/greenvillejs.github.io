@@ -237,6 +237,10 @@ ul {
   background-size: 50px;
 }
 
+.update {
+  font-size: 26px;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1060px){
